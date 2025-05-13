@@ -1,2 +1,21 @@
-# volcanicas-scraper-vision
+# Volcánicas Scraper & Vision 
+
 This repository contains scripts to support **Volcánicas**, a Latin American feminist journalism project, by automating content extraction from key sources and exploring AI-assisted video transcription.
+
+## Overview
+
+- Scrapes articles from Volcanicas links to extract structured information: title, URL, and detailed content.
+- Designed to enhance research and editorial workflows with feminist tech principles: autonomy, transparency, and ethical storytelling.
+
+ 
+## **Goal:** 
+
+Create a clean and consistent schema (`title`, `url`, `content`) to prepare data for **embedding generation and use in a RAG (Retrieval-Augmented Generation) system**.
+
+## Result
+```json
+{
+  "title": "#EcuadorBajoAtaque: la militarización, esa nueva “democracia”",
+  "url": "https://volcanicas.com/ecuadorbajoataque-la-militarizacion-esa-nueva-democracia/",
+  "content": "The article, written by Cristina Burneo Salazar and dated May 13, 2025, critically examines the militarization in Ecuador under President Daniel Noboa following events beginning January 2024. It highlights the declaration of an internal armed conflict, the enactment of restrictive decrees, and the rise of a militarized government model promoting a cult of military heroism and security spectacle. The article covers human rights violations including prison abuses, extrajudicial killings, forced disappearances, and racial profiling, along with accusations of political manipulation and corruption by Noboa's administration. The militarization extends to controlling territories for megamining and private interests, accompanied by social fragmentation and protests against authoritarian practices. The piece concludes by situating Noboa's policies within a broader context of neoliberal exploitation, political repression, and alleged electoral fraud, warning of ongoing social and environmental consequences."
+}
